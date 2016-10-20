@@ -5,5 +5,8 @@ module.exports = {
     },
     quieter(text) {
         return text.toLowerCase().replace(/!.*/,'')
+    },
+    reverseWord(word) {
+        return word.split('').reverse().join('');
     }
 }

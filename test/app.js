@@ -10,4 +10,8 @@ describe('app', () => {
         app.quieter('HELLO!!!1one').should.eql('hello')
     })
 
+    it('should should reerse a word', () => {
+        app.reverseWord('kot').should.eql('tok')
+    })
+
 })
